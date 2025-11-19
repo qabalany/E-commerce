@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Link, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home.jsx';
+import Products from './pages/Products.jsx';
+import Cart from './pages/Cart.jsx';
+import NotFound from './pages/NotFound.jsx';
 
-function App() {
 
+export default function App() {
   return (
-    <h1 className="text-4xl font-bold text-red-500">
-      Installed Tailwindcss
-    </h1>
+    <>
+      <Routes>
+        ...
+      </Routes>
+    </>
   );
 }
-
-export default App
